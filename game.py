@@ -1,16 +1,13 @@
 import random
-from art import logo
 
 GAME_MODE_EASY = 10
 GAME_MODE_HARD = 5
 
-print(logo)
 game_mode = input("Enter Difficulty Level (Easy/Hard):").lower()
 
 """
 This Metod will generate random number to guess
 """
-
 
 def random_number_generator():
     return (random.choice(range(1, 99)))
